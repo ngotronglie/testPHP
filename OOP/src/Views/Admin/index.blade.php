@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is page Dashboard Admin</h1>
+        <a class="btn btn-info mt-3" href="/admin/users">Quản lí người dùng</a>
+        <a class="btn btn-primary mt-3" href="/admin/categories">Quản lí danh mục</a>
+        <a href="/admin/posts" class="btn btn-success mt-3">Quản lí Bài viết</a>
+        <a href="/" class="btn btn-dark mt-3">view Client</a>
+        <a class="btn btn-danger mt-3" href="/logoutAdmin"
+            onclick="return confirm('Bạn xác nhận đăng xuất chứ ??')">logout
+        </a>
+
+    </div>
+</body>
+
+</html>

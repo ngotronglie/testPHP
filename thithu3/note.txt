@@ -1,0 +1,6 @@
+Table: foods
+id - auto increment
+name - string 70
+code - string 10 - mã món
+price - Double (12,2)
+description - string 255

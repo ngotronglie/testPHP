@@ -1,0 +1,18 @@
+{
+    "name": "ngotr/thithu3",
+    "autoload": {
+        "psr-4": {
+            "Ngotr\\Thithu3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngo Trong Liem",
+            "email": "ngotrongliem2004@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.11",
+        "bramus/router": "~1.6"
+    }
+}
